@@ -7,7 +7,7 @@ A top-notch Pizza hat with excellent UI 🍕
 ##### CartPage
 ![ScreenShot of Form](screenshots/b.png)
 
-##### CartPage
+##### CheckOut
 ![ScreenShot of Form](screenshots/c.png)
 
 ##### Shipping 
