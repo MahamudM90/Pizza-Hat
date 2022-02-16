@@ -1,17 +1,7 @@
 # Shoes-Point 👢
 A top-notch shoe store with excellent UI 🛍
 
-##### HomePage
-<img align="center" src="docs/resources/thumbnail.png" />
 
-###### CartPage
-<img align="center" src="docs/resources/a.png" />
-
-<p align="center">
-  Application built with ReactJs, Redux, Redux Saga, Styled Components and Restful API with JSON Server.
-</p>
-
-## Demo 
 
 👉 [Link to demo](https://shoes-point.netlify.app/)
 
