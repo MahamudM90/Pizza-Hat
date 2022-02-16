@@ -39,7 +39,7 @@ To run this project in the development mode, you'll need to have a basic environ
 #### Cloning the Repository
 
 ```
-git clone https://github.com/mahamudm90/shoes-point.git
+git clone https://github.com/MahamudM90/PIZZA-HAT.git
 ```
 
 ### Installing
