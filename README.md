@@ -1,5 +1,5 @@
-# Shoes-Point 👢
-A top-notch shoe store with excellent UI 🛍
+# Pizza-Hat 🧆
+A top-notch Pizza hat with excellent UI 🛍
 
 ##### Footer
 ![ScreenShot of Form](screenshots/a.png)
