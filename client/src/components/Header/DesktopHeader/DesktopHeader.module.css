@@ -1,0 +1,55 @@
+.site_header {
+  display: none;
+}
+
+@media screen and (min-width: 960px) {
+  .site_header {
+    transition: 0.2s ease;
+    padding: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    background: transparent;
+    z-index: 50;
+  }
+
+  .site_header a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+  }
+
+  .site_header__nav_container {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .site_header__nav a {
+    padding: 1rem;
+  }
+
+  .site_header__user_auth {
+    margin-left: 1rem;
+  }
+
+  .site_header.sticky {
+    position: sticky;
+    background-color: #fff200;
+  }
+
+  .site_header.sticky a {
+    color: black;
+  }
+
+  .site_header.sticky
+    .site_header__basket_link:hover
+    .site_header__basket_quantity {
+    background: black;
+  }
+}

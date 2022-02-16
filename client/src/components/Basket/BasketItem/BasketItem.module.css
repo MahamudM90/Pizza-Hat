@@ -1,0 +1,36 @@
+.basket_item {
+  display: none;
+}
+
+@media screen and (min-width: 695px) {
+  .basket_item {
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding: 2rem;
+  }
+
+  .basket_item::after {
+    position: absolute;
+    content: "";
+    width: 95%;
+    height: 1px;
+    background: #e4e4e4;
+    bottom: 0;
+    left: 2.5%;
+  }
+
+  .basket_item:last-child::after {
+    display: none;
+  }
+
+  .basket_item__image {
+    width: 120px;
+    height: 120px;
+    margin-right: 2rem;
+  }
+
+  .basket_item__title {
+    font-family: "Carter One", cursive;
+  }
+}

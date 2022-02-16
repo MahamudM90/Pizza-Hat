@@ -1,0 +1,29 @@
+.basket_item__delete {
+  line-height: 1;
+  font-size: 1rem;
+}
+
+.basket_item__delete_btn {
+  display: flex;
+  align-items: center;
+  background: none;
+  border: none;
+  color: rgb(226, 31, 31);
+  font-size: 1.5rem;
+}
+
+.basket_item__delete_btn:hover {
+  color: black;
+  background: none;
+}
+
+.basket_item__delete_btn svg {
+  margin-bottom: 0.15rem;
+  margin-right: 0.5rem;
+}
+
+@media screen and (min-width: 695px) {
+  .basket_item__delete_btn {
+    font-size: 1rem;
+  }
+}

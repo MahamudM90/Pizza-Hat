@@ -1,0 +1,14 @@
+.add_to_basket {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+@media screen and (min-width: 695px) {
+  .add_to_basket {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+  }
+}

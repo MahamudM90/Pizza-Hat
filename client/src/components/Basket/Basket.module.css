@@ -1,0 +1,135 @@
+.basket_items {
+  display: flex;
+  flex-direction: column;
+}
+
+.basket_items__title_container {
+  width: 100%;
+  transform: translateY(-9rem);
+  padding: 0 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.basket_items__title {
+  display: inline-block;
+  color: white;
+  margin: 0;
+  font-size: 1.25rem;
+  font-family: "Lato", sans-serif;
+  word-spacing: 2px;
+}
+
+.basket_items__title small {
+  font-size: 1rem;
+  margin-left: 0;
+  color: yellow;
+}
+
+.basket_items__total_price {
+  font-size: 2rem;
+  color: white;
+  display: flex;
+  align-items: flex-end;
+}
+
+.basket_items__total_price span {
+  font-size: 1rem;
+  color: yellow;
+}
+
+.basket_items__total_price p {
+  margin: 0;
+  margin-left: 0.5rem;
+  line-height: 1;
+}
+
+.basket_items__container {
+  width: 100%;
+  background: white;
+  margin-top: -8rem;
+  padding-top: 0.5rem;
+}
+
+.cart_empty {
+  padding: 3rem;
+  margin-top: -8rem;
+  background: white;
+  text-align: center;
+}
+
+.cart_empty__btn {
+  transition: 0.2s cubic-bezier(0.19, 1, 0.22, 1);
+  color: white;
+  background: black;
+  padding: 1rem 2rem;
+  display: inline-block;
+  border-radius: 30px;
+  font-family: "carter one", cursive;
+  font-size: 1.5rem;
+}
+
+.basket_items__checkout {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
+  padding: 1rem 0 0 0.5rem;
+  font-size: 1.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.basket_items__checkout a {
+  margin-left: auto;
+  border-radius: 30px;
+  padding: 0.5rem 1.5rem;
+  border: none;
+  font-size: 1.25rem;
+  color: white;
+  background: #22abfb;
+}
+
+.basket_items__checkout a:hover {
+  background: yellow;
+  color: black !important;
+}
+
+@media screen and (min-width: 695px) {
+  .basket_items {
+    margin-bottom: 3rem;
+  }
+
+  .basket_items__title_container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+
+  .basket_items__title {
+    font-size: 2rem;
+  }
+
+  .basket_items__title small {
+    margin-left: 0.5rem;
+  }
+
+  .basket_items__total_price {
+    font-size: 3rem;
+  }
+
+  .basket_items__total_price span {
+    font-size: 1.25rem;
+  }
+
+  .basket_items__total_price p {
+    margin-left: 1rem;
+  }
+
+  .basket_items__container {
+    padding-top: 0;
+    max-width: 800px;
+    margin: 0 auto;
+    box-shadow: 0 2px 8px 2px rgba(200, 200, 200, 0.2);
+    border-radius: 4px;
+  }
+}

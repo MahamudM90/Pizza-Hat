@@ -1,0 +1,9 @@
+.logo {
+  flex: auto;
+  font-size: 2rem;
+  font-family: "Carter One", cursive;
+}
+
+.logo a {
+  color: yellow;
+}

@@ -1,0 +1,44 @@
+.basket_item__mobile {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+.basket_item__mobile::after {
+  position: absolute;
+  content: "";
+  width: 95%;
+  height: 1px;
+  background: #e4e4e4;
+  bottom: 0;
+  left: 2.5%;
+}
+
+.basket_item__image {
+  width: 80px;
+  height: 80px;
+  margin-right: 1rem;
+}
+
+.basket_item__details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.basket_item__title {
+  font-size: 1.2rem;
+}
+
+.basket_item__delete {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+@media screen and (min-width: 695px) {
+  .basket_item__mobile {
+    display: none;
+  }
+}

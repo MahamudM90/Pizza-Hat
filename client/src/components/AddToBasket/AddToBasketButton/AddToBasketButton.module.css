@@ -1,0 +1,27 @@
+.add_to_basket__button {
+  display: flex;
+  align-self: center;
+  align-items: center;
+  border: none;
+  background: rgb(19, 19, 19);
+  padding: 0.5rem 2rem;
+  border-radius: 30px;
+  background: #22abfb;
+  color: white;
+  font-size: 1rem;
+  font-family: "Carter One", cursive;
+  margin-top: 2rem;
+}
+
+.add_to_basket__button svg {
+  font-size: 1.25rem;
+  margin-left: 0.5rem;
+  margin-bottom: 0.1rem;
+}
+
+@media screen and (min-width: 695px) {
+  .add_to_basket__button {
+    margin-right: 1.5rem;
+    margin-top: 0;
+  }
+}

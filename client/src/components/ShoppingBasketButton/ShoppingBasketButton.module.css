@@ -1,0 +1,24 @@
+/* basket button */
+
+.site_header__basket {
+  padding: 0 1rem;
+  position: relative;
+  font-size: 1.7rem;
+  margin-top: -0.5rem;
+}
+
+.site_header__basket_quantity {
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  font-size: 0.7rem;
+  font-weight: bold;
+  background: red;
+  border-radius: 50%;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0.5rem;
+  right: 0.5rem;
+}
