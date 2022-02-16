@@ -1,6 +1,17 @@
 # Shoes-Point 👢
 A top-notch shoe store with excellent UI 🛍
 
+##### Footer
+![ScreenShot of Form](screenshots/a.png)
+
+##### Customer Reviews
+![ScreenShot of Form](screenshots/b.png)
+
+##### CartPage
+![ScreenShot of Form](screenshots/c.png)
+
+##### Shipping 
+![ScreenShot of Form](screenshots/d.png)
 
 
 👉 [Link to demo](https://shoes-point.netlify.app/)
