@@ -1,5 +1,5 @@
 # Pizza-Hat 🧆
-A top-notch Pizza hat with excellent UI 🍕
+A top-notch Pizza-hat with excellent UI 🍕
 
 ##### HomePage
 ![ScreenShot of Form](screenshots/a.png)
