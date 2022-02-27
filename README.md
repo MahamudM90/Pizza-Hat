@@ -1,7 +1,7 @@
 # Pizza-Hat 🧆
 A top-notch Pizza-hat with excellent UI 🍕
 
-##### HomePage
+##### Home Page
 ![ScreenShot of Form](screenshots/a.png)
 
 ##### CartPage
