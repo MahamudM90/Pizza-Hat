@@ -50,7 +50,7 @@ Run to install the dependencies:
 yarn
 ```
 
-To start the project:
+To start the Project:
 
 ```
 yarn start
