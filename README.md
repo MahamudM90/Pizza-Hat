@@ -4,7 +4,7 @@ A top-notch Pizza-hat with excellent UI 🍕
 ##### Home Page
 ![ScreenShot of Form](screenshots/a.png)
 
-##### CartPage
+##### Car Page
 ![ScreenShot of Form](screenshots/b.png)
 
 ##### CheckOut
