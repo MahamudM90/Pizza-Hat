@@ -18,7 +18,7 @@ A top-notch Pizza-hat with excellent UI 🍕
 
 ## Tech 👨‍💻
 
-- [ReactJs](https://reactjs.org) - A JavaScript library for building user interfaces.
+- [ReactJs](https://reactjs.org) - A JavaScript Library for building user interfaces.
 - [React Icons](https://styled-components.com/) - Utilizes ES6 imports that allows you to include only the icons that your project is using.
 - [React Router Dom](https://github.com/ReactTraining/react-router/tree/master/packages/react-router-dom) - DOM bindings.
 - [React Redux](https://redux.js.org/basics/usage-with-react) - State container for JavaScript applications.
